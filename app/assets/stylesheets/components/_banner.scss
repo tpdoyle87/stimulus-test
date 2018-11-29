@@ -1,0 +1,28 @@
+.banner {
+  height: calc(100vh + 70px);
+  background-color: #E0EBE9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  #clickMe {
+    display: none;
+  }
+  #left-small {
+  width: 240px;
+  }
+}
+
+#left-small:hover {
+  transform: rotate(1080deg);
+  transition: transform 3.75s ease;
+}
+
+#img-left:hover~#clickMe {
+  display: block;
+}
+
+
+.wow {
+  visibility: hidden;
+}
